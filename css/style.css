@@ -1,0 +1,130 @@
+#about {
+    border: 1px solid orange;
+    margin: 50px;
+}
+
+.perfil {
+    position: relative;
+    margin: auto;
+}
+
+.mascote {
+    width: 50%;
+    position: relative;
+    margin: auto;
+} 
+
+.mascote1 {
+    width: 100%;
+}
+
+.quemsoueu {
+    font-size: 18px;
+    text-align: justify;
+}
+
+.perfil1 {
+    width: 100%;
+}
+
+.logo-cont {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    position: relative;
+}
+
+.logo1 {
+    width: 100%;
+}
+
+.barra-sup {
+    background: #1d809f;
+    height: 70px;
+    width: 100%;
+    padding-left: 30px;
+}
+
+.youtube {
+    width: 100%;
+    padding-top: 30px;
+    background: #ecececcc;
+    padding-bottom: 50px;
+}
+
+.yt-icon {
+    margin-bottom: 30px;
+}
+
+.video-sec {
+    padding: 5px;
+}
+
+.video-u {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.vid {
+    width: 100%;
+    border: 5px solid orange;
+}
+
+.video-container {
+    width: 700px;
+	position:relative;
+	padding-bottom:56.25%;
+	padding-top:30px;
+	height:0;
+	overflow:hidden;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+    border: orange solid 5px;
+}
+
+.footer {
+    background-image: url('../img1/footer-img.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.jumbotron {
+    background: #1d809f;
+    color: #FFF;
+    border-radius: 0px;
+    }
+    .jumbotron-sm { padding-top: 24px;
+    padding-bottom: 24px; }
+    .jumbotron small {
+    color: #FFF;
+    }
+    .h1 small {
+    font-size: 24px;
+    }
+
+
+@media (max-width: 850px) {
+    .footer {
+        background-image: url('../img1/footer-img-850.jpg');
+    }
+}
+
+@media (max-width: 520px) {
+    .footer {
+        background-image: url('../img1/footer-img-520.jpg');
+    }
+}
+
+
+
